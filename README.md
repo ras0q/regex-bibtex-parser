@@ -18,7 +18,7 @@ yarn add jsr:@ras0q/regex-bibtex-parser
 ## As a JavaScript package
 
 ```typescript
-// import { parseBibtex } from "jsr:@ras0q/regex-bibtex-parser@0.1.2";
+// import { parseBibtex } from "jsr:@ras0q/regex-bibtex-parser@0.1.4";
 import { parseBibtex } from "@ras0q/regex-bibtex-parser";
 
 if (import.meta.main) {
@@ -33,7 +33,8 @@ if (import.meta.main) {
 ## As a CLI
 
 ```bash
-cat ./bibtex.bib | deno run jsr:@ras0q/regex-bibtex-parser
+# cat ./bibtex.bib | deno run jsr:@ras0q/regex-bibtex-parser@0.1.4/cli
+cat ./bibtex.bib | deno run jsr:@ras0q/regex-bibtex-parser/cli
 # [
 #   {
 #     "type": "incollection",
