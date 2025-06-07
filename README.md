@@ -1,4 +1,4 @@
-# `@ras0q/regex-bibtex-parser`
+# @ras0q/regex-bibtex-parser
 
 A lightweight BibTeX / BibLaTeX parser using regex.
 
