@@ -1,6 +1,6 @@
 {
   "name": "@ras0q/regex-bibtex-parser",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "exports": {
     ".": "./mod.ts",
     "./cli": "./cli.ts"
