@@ -1,5 +1,18 @@
 {
   "name": "@ras0q/regex-bibtex-parser",
   "version": "0.1.2",
-  "exports": "./mod.ts"
+  "exports": {
+    ".": "./mod.ts",
+    "./cli": "./cli.ts"
+  },
+  "imports": {
+    "@std/streams": "jsr:@std/streams@^1.0.9"
+  },
+  "publish": {
+    "include": [
+      "./LICENSE",
+      "./README.md",
+      "./*.ts"
+    ]
+  }
 }
