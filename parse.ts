@@ -1,7 +1,7 @@
 const entriesRegex = /@\w+\s*\{[^@]*\}/g;
 const entryHeaderRegex = /@(\w+)\s*\{\s*([^,]+),/;
 const entryFieldRegex =
-  /(\w+)\s*=\s*(?:\{((?:[^{}]|\{.*?\})*)\}|"\{?(.*?)\}?"|'\{?(.*?)\}?'|(.+?)),/g;
+  /(\w+)\s*=\s*(?:\{((?:[^{}]|\{.*?\})*)\}|"\{?(.*?)\}?"|'\{?(.*?)\}?'|(.+?))(?:\s*#.+?)?\s*[,}]/g;
 
 /** BibtexEntry represents a BibTex / BibLaTeX entry */
 export type BibtexEntry = {
